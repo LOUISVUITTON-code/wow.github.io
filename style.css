@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200&family=Koulen&family=Poiret+One&family=Poppins&family=Quicksand&family=Rubik+Glitch&display=swap&family=Ubuntu:ital,wght@1,300&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Exo 2', sans-serif;*/
+/*font-family: 'Koulen', cursive;*/
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Rubik Glitch', cursive;*/
+
+.clearfix{
+	clear: both;
+}
+
+.left{
+	display: inline-block;
+}
+
+.right{
+	display: inline-block;
+	float: right;
+}
+
+html, body{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #DBDBDB;
+	color: #E3E3E3;
+}
+
+/*-----------------------------------------------------HOME-----------------------------------------------------*/
+
+/*-----------------------------------------------------HEADER Y NAVEGADOR-----------------------------------------------------*/
+
+header{
+	margin: auto;
+	padding: 0px;
+	background: #2A2A2A url("./media/fondo_header.jpg") no-repeat center top;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #111111;
+}
+
+header ul{
+	list-style: none;
+	text-align: center;
+}
+
+header ul li{
+	display: inline-flex;
+}
+
+header ul li a img{
+	width: 20%;
+	padding: 5%;
+	transition: all 0.3s;
+}
+
+header ul li a img:hover{
+	transform: rotate(20deg);
+}
+
+header nav{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	background-color: #00000090;
+	box-shadow: 3px 2px 3px #191919;
+}
+
+header nav img{
+	padding: 5%;
+	float: left;
+}
+
+header nav p{
+	display: inline-block;
+	padding: 10%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header nav p span{
+	text-shadow: 3px 3px 3px #161616;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: #0080D1;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+header nav ul{
+	list-style: none;
+	float: right;
+	padding: 100px 50px 0px 0px;
+}
+
+header nav ul li{
+    display:inline-block;
+    padding-right: 30px;
+    vertical-align: top;
+    width: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+header nav ul li a{
+	padding-right: 30%;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #E6E6E6;
+	transition: all 0.3s;
+	letter-spacing: 0.2em;
+}
+
+header nav ul li a:hover{
+	color: #424242;
+}
+
+header nav ul li:hover ul{
+	display: block;
+}
+
+header nav ul li ul{
+    margin: 0;
+    display: none;
+    padding: 5px 0px 0px 50px;
+}
+
+header nav ul li ul li{
+    display: block;
+    padding: 25px 0px 0px 0px;
+}
+
+header nav ul li ul li a{
+	font-size: 2em;
+	text-shadow: 4px 4px 3px #1A1A1A;	
+}
+
+/*-----------------------------------------------------SECCION-----------------------------------------------------*/
+
+section{
+	margin: auto;
+	padding: 100px 0px;
+	width: 50%;
+}
+
+section h1{
+	color: #252525;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 50px 0px 0px 20px;
+}
+
+section p{
+	margin: 0px;
+	padding-bottom: 100px;
+	font-size: 1.2em;
+	text-align: justify;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	color: #5D5D5D;
+}
+
+section h1 span{
+	text-shadow: 2px 2px 2px #161616;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color: #0080D1;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+section img{
+	width: 100%;
+	box-shadow: 3px 3px 3px #2D2D2D;
+	border-radius: 5px;
+}
+
+/*-----------------------------------------------------ASIDE-----------------------------------------------------*/
+
+aside{
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	background: #2A2A2A url("./media/fondo_aside.jpg") no-repeat center top;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #111111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+aside img{
+	padding: 100px;
+	width: 10%;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+aside img:hover{
+	transform: rotate(20deg);
+}
+
+/*-----------------------------------------------------SECTION.LEFT.HOME-----------------------------------------------------*/
+
+section.left{
+	padding: 100px 0px;
+	text-align: center;
+}
+
+section.left>p{
+	margin: 0px	;
+	padding: 0px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+section.left>p>span{
+	color: #008BEC;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+section.left>a{
+	padding-bottom: 50px;
+	text-decoration: none;
+	color: #008CF8;
+	font-size: 3em;
+	font-family: 'Exo 2', sans-serif;
+	display: block;
+	letter-spacing: 0.15em;
+}
+
+section.left>i{
+	text-shadow: 2px 2px 2px;
+	font-size: 4em;
+	color: #0E4F9180;
+}
+
+/*-----------------------------------------------------SECTION.RIGHT.HOME-----------------------------------------------------*/
+
+section.right{
+	padding-top: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+section.right iframe{
+	width: 90%;
+	box-shadow: 3px 3px 3px #565656;
+}
+
+/*-----------------------------------------------------FOOTER-----------------------------------------------------*/
+
+footer{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #1C1C1C;
+	box-shadow: 3px 3px 3px 3px #202020;
+}
+
+/*-----------------------------------------------------FOOTER.LEFT-----------------------------------------------------*/
+
+footer>div.left{
+	width: 49%;
+	margin: auto;
+	padding: 0px;
+}
+
+footer>div.left a{
+	width: 10%;
+	padding: 5% 20%;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
+	color: #CDCDCD;
+	transition: all 0.3s;
+}
+
+footer>div.left a:hover{
+	color: #313131;
+}
+
+footer>div.right{
+	width: 49%;
+	margin: auto;
+	padding: 0px;
+}
+
+/*-----------------------------------------------------FOOTER.RIGHT-----------------------------------------------------*/
+
+footer>div.right{
+	width: 49%;
+	margin: auto;
+	padding: 0px;
+}
+
+footer>div.right p{
+	padding-top: 15%;
+	padding-left: 25%;
+	margin: 0px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #A0A0A0;
+	font-family: 'Poiret One', cursive;
+}
+
+footer>div.right img{
+	width: 20%;
+	padding-top: 5%;
+	padding-right: 20%;
+	margin: 0px;
+	display: inline-block;
+	float: right;
+}
+
+/*-----------------------------------------------------NOSOTROS-----------------------------------------------------*/
+
+section#secnosotros{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+section#secnosotros>h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secnosotros>div.left{
+	padding: 0px;
+	margin: 0px;
+	width: 49%;
+}
+
+section#secnosotros>div.left>p{
+	padding-left: 10%;
+	text-transform: none;
+}
+
+section#secnosotros>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	padding-right: 10%;
+}
+
+section#secnosotros>div.right>img{
+	width: 100%;
+	float: right;
+}
+
+/*-----------------------------------------------------NOSOTROS SEC 2-----------------------------------------------------*/
+
+section#secnosotros2{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	padding: 8% 0%;
+}
+
+section#secnosotros2>h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secnosotros2>div.right{
+	padding: 0px;
+	margin: 0px;
+	width: 49%;
+}
+
+section#secnosotros2>div.right>p{
+	padding-right: 10%;
+	text-transform: none;
+}
+
+section#secnosotros2>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	padding-left: 10%;
+}
+
+section#secnosotros2>div.left>img{
+	width: 100%;
+	float: right;
+}
+
+/*-----------------------------------------------------NOSOTROS ASIDE-----------------------------------------------------*/
+
+aside#patro{
+	background: #2A2A2A url("./media/tiger01back.jpg") no-repeat center top;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #2D2D2D;
+}
+
+aside#patro img{
+	transform: none;
+}
+
+aside#patro p{
+	position: absolute;
+	padding-bottom: 15%;
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #9A9A9A;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #1F1F1F;
+}
+
+/*-----------------------------------------------------NOSOTROS SEC 3-----------------------------------------------------*/
+
+section#secnosotros3{
+	width: 100%;
+	margin: 0px;
+	padding: 5% 0%;
+	padding-bottom: 10%;
+}
+
+section#secnosotros3>div.left{
+	width: 40%;
+	padding-left: 5%;
+	margin: 0px;
+}
+
+section#secnosotros3>div.right{
+	width: 30%;
+	padding-right: 5%;
+	margin: 0px;
+
+}
+
+/*-----------------------------------------------------SERVICIOS-----------------------------------------------------*/
+
+section#secservicios{
+	margin: auto;
+	padding: 0px;
+	width: 90%;
+}
+
+section#secservicios h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secservicios>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicios>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicios>div.left p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicios>div.right img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIOS SEC 2-----------------------------------------------------*/
+
+section#secservicios2{
+	margin: auto;
+	padding: 5% 0%;
+	width: 90%;
+}
+
+section#secservicios2>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicios2>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicios2>div.right p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicios2>div.left img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIOS SEC 3-----------------------------------------------------*/
+
+section#secservicios3{
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+section#secservicios3 ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+section#secservicios3>ul>li{
+	margin: 5% 2%;
+	padding: 5%;
+	display: inline-block;
+	width: 15%;
+	background: #2A2A2A url("./media/blue-purple.png") no-repeat center top;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #2D2D2D;
+	border-radius: 5px;
+}
+
+section#secservicios3>ul>li>a{
+	text-decoration: none;
+	color: #212121;
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
+}
+
+/*-----------------------------------------------------GALERIA-----------------------------------------------------*/
+
+section#secgaleria{
+	margin: auto;
+	padding: 0px;
+	width: 90%;
+}
+
+section#secgaleria h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secgaleria>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secgaleria>div.left p{
+	margin: 0px;
+	padding: 5%;
+	text-align: center;
+}
+
+section#secgaleria>div.left img{
+	width: 90%;
+}
+
+section#secgaleria>div.right p{
+	margin: 0px;
+	padding: 5%;
+	text-align: center;
+} 
+
+section#secgaleria>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+} 
+
+/*-----------------------------------------------------GALERIA SEC 2-----------------------------------------------------*/
+
+section#secgaleria2{
+	width: 100%;
+	padding: 0px;
+	margin: auto;
+	text-align: center;
+}
+
+section#secgaleria2>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secgaleria2>div.left>img{
+	width: 80%;
+}
+
+section#secgaleria2>div.left>p{
+	padding: 10%;
+	margin: 0px;
+	text-align: center;
+}
+
+section#secgaleria2>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secgaleria2>div.right>img{
+	width: 80%;
+}
+
+section#secgaleria2>div.right>p{
+	padding: 10%;
+	margin: 0px;
+	text-align: center;
+}
+
+/*-----------------------------------------------------GALERIA SEC 3-----------------------------------------------------*/
+
+section#secgaleria3{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 5% 0%;
+}
+
+section#secgaleria3 ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+section#secgaleria3>ul>li{
+	margin: 5% 5%;
+	padding: 5%;
+	display: inline-block;
+	width: 10%;
+	background: #2A2A2A url("./media/red-pink.png") no-repeat center top;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #2D2D2D;
+	border-radius: 5px;
+}
+
+section#secgaleria3>ul>li>a{
+	text-decoration: none;
+	font-size: 7em;
+	color: #212121;
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secgaleria3>ul>li>a>i{
+	transition: all 0.3s;
+}
+
+section#secgaleria3>ul>li>a>i:hover{
+	transform: rotate(20deg);
+}
+
+/*-----------------------------------------------------CONTACTO-----------------------------------------------------*/
+
+section#seccontacto{
+	width: 100%;
+	padding: 0px;
+	margin: auto;
+	text-align: center;
+}
+
+section#seccontacto h2{
+	padding-top: 5%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#seccontacto>div.left{
+	padding-top: 5%;
+	width: 40%;
+	text-align: center;
+}
+
+section#seccontacto>div.left p{
+	margin: 0px	;
+	padding: 0px;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+section#seccontacto>div.left a{
+	text-decoration: none;
+	color: #008CF8;
+	font-size: 3em;
+	font-family: 'Exo 2', sans-serif;
+	display: block;
+	letter-spacing: 0.15em;
+}
+
+section#seccontacto>div.left i{
+	padding: 5%;
+	text-shadow: 2px 2px 2px;
+	font-size: 4em;
+	color: #0E4F9180;
+}
+
+section#seccontacto>div.left>div#social>a{
+	padding: 5%;
+	display: inline-block;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 3px #3F3F3F;
+	transition: all 0.3s;
+}
+
+section#seccontacto>div.left>div#social>a>i{
+	color: #292929;
+	transition: all 0.3s;
+}
+
+section#seccontacto>div.left>div#social>a>i:hover{
+	color: #CBCBCB;
+	transform: rotate(20deg);
+}
+		
+section#seccontacto>div.right{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 49%;
+	margin: auto;
+	text-align: center;
+}
+
+section#seccontacto>div.right iframe{
+	width: 90%;
+	box-shadow: 3px 3px 3px #565656;
+}
+
+/*-----------------------------------------------------FORMULARIO-----------------------------------------------------*/
+
+section#seccontacto2{
+	margin: auto;
+	padding: 5%;
+	width: 45%;
+	border-radius: 5px;
+	background: #C8C8C8;
+	border: 3px solid #1C5B90;
+	color: #262626;
+	box-shadow: 4px 7px 20px #000;
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+
+section#seccontacto2:hover{
+	border: 3px solid #258DE5;
+	background: #EAEAEA;
+}
+
+
+
+section#seccontacto2 h1{
+	font-weight: bold;
+	font-size: 2.3em;
+	text-shadow: 0.3px 0.3px #4C4C4C;
+	font-family: 'Exo 2', sans-serif;
+	color: #2E2E2E;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#seccontacto2 p{
+	padding-bottom: 35px;
+	font-size: 0.8em;
+	text-shadow: 0.3px 0.3px #4C4C4C;
+	font-family: 'Exo 2', sans-serif;
+	color: #2E2E2E;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#seccontacto2 .formstyle{
+	width: 90%;
+	display: block;
+	vertical-align: middle;
+	align-items: center;
+	background: transparent;
+	padding: 10px;
+	margin-top: 20px !important;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #2C75B7 !important;
+	border: 0px;
+	font-family: 'Exo 2', sans-serif;
+	transition: 0.2s;
+}
+
+section#seccontacto2 .formstyle:hover{
+		border-bottom: 1px solid #258DE5 !important;
+		background: #EAEAEA;
+}
+
+section#seccontacto2 .btn{
+	width: 20%;
+	background: #D6D6D6;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	border: 1px solid #258DE5;
+	font-family: 'Exo 2', sans-serif;
+	margin-left: 40%;
+	transition: 0.3s;
+}
+
+section#seccontacto2 .btn:hover{
+	background: #258DE5;
+}
+
+/*-----------------------------------------------------SERVICIO 01-----------------------------------------------------*/
+
+section#secservicio01{
+	margin: auto;
+	padding: 0px;
+	width: 90%;
+}
+
+section#secservicio01 h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secservicio01>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicio01>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicio01>div.left p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicio01>div.right img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIO 01 SEC 2-----------------------------------------------------*/
+
+section#secservicio01-2{
+	margin: auto;
+	padding: 5% 0%;
+	width: 90%;
+}
+
+section#secservicio01-2>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicio01-2>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicio01-2>div.right p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicio01-2>div.left img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIO 01 SEC 3-----------------------------------------------------*/
+
+section#secservicio01-3{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 5% 0%;
+}
+
+section#secservicio01-3>ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+section#secservicio01-3>ul>li{
+	margin: 5% 5%;
+	padding: 5%;
+	display: inline-block;
+	width: 10%;
+	background: #2A2A2A url("./media/yellow-green.png") repeat center center;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #2D2D2D;
+	border-radius: 5px;
+}
+
+section#secservicio01-3>ul>li>a{
+	text-decoration: none;
+	font-size: 7em;
+	color: #212121;
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secservicio01-3>ul>li>a>i{
+	transition: all 0.3s;
+}
+
+section#secservicio01-3>ul>li>a>i:hover{
+	transform: rotate(20deg);
+}
+
+/*-----------------------------------------------------SERVICIO 01-----------------------------------------------------*/
+
+section#secservicio02{
+	margin: auto;
+	padding: 0px;
+	width: 90%;
+}
+
+section#secservicio02 h2{
+	text-align: center;
+	padding: 10%;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #393939;
+	text-shadow: 2px 2px 2px #191919;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secservicio02>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicio02>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicio02>div.left p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicio02>div.right img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIO 02 SEC 2-----------------------------------------------------*/
+
+section#secservicio02-2{
+	margin: auto;
+	padding: 5% 0%;
+	width: 90%;
+}
+
+section#secservicio02-2>div.right{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;
+}
+
+section#secservicio02-2>div.left{
+	margin: 0px;
+	padding: 0px;
+	width: 49%;	
+}
+
+section#secservicio02-2>div.right p{
+	width: 70%;
+	padding: 5%;
+	text-transform: none;
+}
+
+section#secservicio02-2>div.left img{
+	width: 70%;
+}
+
+/*-----------------------------------------------------SERVICIO 02 SEC 3-----------------------------------------------------*/
+
+section#secservicio02-3{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 5% 0%;
+}
+
+section#secservicio02-3>ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+section#secservicio02-3>ul>li{
+	margin: 5% 5%;
+	padding: 5%;
+	display: inline-block;
+	width: 10%;
+	background: #2A2A2A url("./media/yellow-green.png") repeat center center;
+	background-size: cover; 
+	background-attachment: fixed;
+	box-shadow: 3px 3px 3px #2D2D2D;
+	border-radius: 5px;
+}
+
+section#secservicio02-3>ul>li>a{
+	text-decoration: none;
+	font-size: 7em;
+	color: #212121;
+	font-weight: bold;
+	font-family: 'Exo 2', sans-serif;
+}
+
+section#secservicio02-3>ul>li>a>i{
+	transition: all 0.3s;
+}
+
+section#secservicio02-3>ul>li>a>i:hover{
+	transform: rotate(20deg);
+}
+
